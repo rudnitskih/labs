@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab1</title>
+	<meta charset="utf-8">
+	<meta name="description" content="" />
+	
+	<link href="CSS/main.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	
+	<div id="page_align">
+		<div id="left_side">
+			<div><a href="#open1" onclick="collapsElement">Ссылка 1</a></div>		
+			<article>
+			 Дана лабораторна перша частина курсового проекту по курсу "Гнучні комп'ютеризовані системи". 
+			 Користувач вводить кількість об'єктів які треба виготивити та перелік операцій для кожного об'єкту. 
+			 Програма складає матрицю кількості спільних дій для кожної пари об'єктів та за допомоги спеціального 
+			 алгоритму формує групи виробничих ліній. <br> Автор: Рудницьких Дмитро. ІК-22 ФІОТ КПІ. 2014 <br>
+			</article>
+			<p><br>Введить для кожного об'єкта перелік операцій. <br> Між операціями потрібні пробіли.<br></p>
+			<input id="addElement" type="button" value="Добавити об'єкт"/> 
+			<input id="process" type="button" value="Підрахувати всі операції"/>
+			<input id="about" type="button" value="Про програму"/>
+			<ol id="list">			
+			</ol>
+			<p>
+			Приклад вводу
+			T1 C2 T3 C3 T4 F1
+			<p>
+		</div>
+		<div id="right_side"> 
+			<input id="delete" type="button" value="Очистити"/>
+			<div id="first_lab">
+			<div id="myDynamicTable"> Перша таблиця	<br></div>			
+			<div id="myDynamicTable2"> Друга таблиця <br></div>
+			<div ><ol id="groups"> <ol></div>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	
+	<footer>
+	
+	</footer>
+	</div> 
+</body>
+</html>
